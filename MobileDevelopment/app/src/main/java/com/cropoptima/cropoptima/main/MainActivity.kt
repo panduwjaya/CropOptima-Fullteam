@@ -36,5 +36,6 @@ MainActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
     }
     // test commit and push
+    // test PR
 
 }
