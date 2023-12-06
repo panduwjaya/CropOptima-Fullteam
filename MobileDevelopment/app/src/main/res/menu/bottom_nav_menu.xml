@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/home_fill0_wght300_grad0_opsz24"
+        android:title="Home" />
+    <item
+        android:id="@+id/detection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/frame_inspect_fill0_wght300_grad0_opsz24"
+        android:title="Detection" />
+    <item
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/person_fill0_wght300_grad0_opsz24"
+        android:title="Profile" />
+</menu>
