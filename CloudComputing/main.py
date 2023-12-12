@@ -1,6 +1,10 @@
 from flask import Flask, request, jsonify
 import numpy as np
 import pickle
+import json
+
+with open("CloudComputing/plant-desc.json") as desc:
+    plantDescData = json.load(desc)
 
 # importing model
 model = pickle.load(open("CloudComputing/model.pkl", "rb"))
@@ -53,7 +57,12 @@ def root():
     ]
 
     if result in crop_arr:
-        return jsonify({"crop": result})
+        return jsonify(
+            {
+                "crop": result,
+                "description": plantDescData[result]["description"],
+            }
+        )
     else:
         return jsonify({"crop": "N/A"})
 
