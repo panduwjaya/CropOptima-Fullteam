@@ -1,3 +1,6 @@
 Flask
 numpy
 scikit-learn
+gunicorn==20.1.0
+Werkzeug==3.0.1
+# flask_mysqldb

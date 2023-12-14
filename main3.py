@@ -2,11 +2,7 @@ from flask import Flask, request, jsonify
 import numpy as np
 import pickle
 import json
-import requests
-import random
-
-
-# from flask_mysqldb import MySQL
+import mysql.connector
 
 with open("CloudComputing/plant-desc.json") as desc:
     plantDescData = json.load(desc)
@@ -17,39 +13,29 @@ model = pickle.load(open("CloudComputing/model.pkl", "rb"))
 # flask app
 app = Flask(__name__)
 
-# app.config["MYSQL_HOST"] = "10.128.0.9"
-# app.config["MYSQL_USER"] = "root"
-# app.config["MYSQL_PASSWORD"] = "ce2031aa-c83a-4384-84bd-ef36c5f95c58"
-# app.config["MYSQL_DB"] = "crop_optima_db"
+db_config = {
+    "host": "35.209.84.37",  # replace with your VM's external IP
+    "user": "crop-optima-api",
+    "password": "sukses123",
+    "database": "crop_optima_db",
+    "port": 3306,  # default MySQL port
+}
 
-# mysql = MySQL(app)
+conn = mysql.connector.connect(**db_config)
 
 
 @app.route("/predict", methods=["POST"])
 def root():
     data = request.get_json()
+    print(data)
     email = data.get("email")
     N = float(data.get("n"))
     P = float(data.get("p"))
     K = float(data.get("k"))
+    temp = float(data.get("temp"))
+    humid = float(data.get("humid"))
     ph = float(data.get("ph"))
-    lon = data.get("lon")
-    lat = data.get("lat")
-
-    weather = json.loads(
-        requests.get(
-            "https://api.openweathermap.org/data/2.5/weather?lat="
-            + str(lat)
-            + "&lon="
-            + str(lon)
-            + "&appid=64dd867de5e5d328aa7ee8d45c5271ad"
-        ).text
-    )
-
-    temp = float(weather["main"]["temp"])
-    humid = float(weather["main"]["humidity"])
-    location = weather["name"]
-    rainfall = random.randint(24, 237)
+    rainfall = float(data.get("rainfall"))
 
     feature_list = [N, P, K, temp, humid, ph, rainfall]
     singl_pred = np.array(feature_list).reshape(1, -1)
@@ -83,16 +69,12 @@ def root():
     ]
 
     if result in crop_arr:
-        # cursor = mysql.connection.cursor()
-        # cursor.execute(""" INSERT INTO history VALUES(%s,%s) """, (email, result))
-        # mysql.connection.commit()
-        # cursor.close()
+        cursor = conn.cursor(dictionary=True)
+        cursor.execute(""" INSERT INTO predict VALUES(%s,%s) """, (email, result))
         return jsonify(
             {
-                "email": email,
                 "crop": result,
                 "description": plantDescData[result]["description"],
-                "location": location,
             }
         )
     else:
