@@ -3,13 +3,13 @@ import numpy as np
 import pickle
 import json
 import requests
-import random
+import datetime
 
 
 # from flask_mysqldb import MySQL
 
-with open("CloudComputing/plant-desc.json") as desc:
-    plantDescData = json.load(desc)
+with open("CloudComputing/data.json") as data:
+    jsondata = json.load(data)
 
 # importing model
 model = pickle.load(open("CloudComputing/model.pkl", "rb"))
@@ -49,7 +49,7 @@ def root():
     temp = float(weather["main"]["temp"])
     humid = float(weather["main"]["humidity"])
     location = weather["name"]
-    rainfall = random.randint(24, 237)
+    rainfall = jsondata["rainfall"][datetime.datetime.now().strftime("%m")]
 
     feature_list = [N, P, K, temp, humid, ph, rainfall]
     singl_pred = np.array(feature_list).reshape(1, -1)
@@ -91,7 +91,7 @@ def root():
             {
                 "email": email,
                 "crop": result,
-                "description": plantDescData[result]["description"],
+                "description": jsondata["plant-description"][result]["description"],
                 "location": location,
             }
         )
