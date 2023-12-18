@@ -1,0 +1,106 @@
+{
+  "plant-description": {
+    "rice": {
+      "description": "Padi memerlukan kandungan nitrogen (N) dan fosfor (P) yang tinggi. Tanaman ini tumbuh baik pada kelembapan yang sedang (82.27%) dan temperatur sekitar 23.69°C. Curah hujan yang tinggi sekitar 236.18 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang panjang.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/rice.jpg"
+    },
+    "maize": {
+      "description": "Jagung tumbuh baik pada tanah dengan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tanaman ini memerlukan kelembapan yang sedang (65.09%) dan temperatur sekitar 22.39°C. Curah hujan sekitar 84.77 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/Maize.jpg"
+    },
+    "chickpea": {
+      "description": "Kacang kuda (chickpea) membutuhkan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tanaman ini tumbuh baik pada kelembapan yang sedang (16.86%) dan temperatur sekitar 18.87°C. Curah hujan sekitar 80.06 mm membuat chickpea cocok untuk daerah dengan iklim musim semi yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/Chickpea.jpg"
+    },
+    "kidneybeans": {
+      "description": "Kacang merah (kidneybeans) memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tanaman ini tumbuh baik pada kelembapan yang sedang (21.61%) dan temperatur sekitar 20.12°C. Curah hujan sekitar 105.92 mm menjadikannya cocok untuk daerah dengan iklim musim semi yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/kidney%20beans.jpg"
+    },
+    "pigeonpeas": {
+      "description": "Kacang pigeonpeas memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tanaman ini tumbuh baik pada kelembapan yang sedang (48.06%) dan temperatur sekitar 27.74°C. Curah hujan sekitar 149.46 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/Pigeon%20Peas.jpeg"
+    },
+    "mothbeans": {
+      "description": "Kacang matahari (mothbeans) membutuhkan kandungan nitrogen (N) yang seimbang dan kelembapan yang cukup (53.16%). Tumbuh baik pada tanah dengan pH sedikit asam (6.83) dan temperatur sekitar 28.19°C. Curah hujan sekitar 51.20 mm menjadikannya cocok untuk daerah dengan iklim tropis atau musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/mothbeans.jpg"
+    },
+    "mungbean": {
+      "description": "Kacang hijau (mungbean) memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tumbuh baik pada kelembapan yang sedang (85.50%) dan temperatur sekitar 28.53°C. Curah hujan sekitar 48.40 mm menjadikannya cocok untuk daerah dengan iklim musim semi yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/mungbeans.jpg"
+    },
+    "blackgram": {
+      "description": "Kacang hitam (blackgram) tumbuh baik pada tanah dengan kandungan nitrogen (N) yang seimbang dan pH tanah yang sedikit asam (7.13). Tanaman ini membutuhkan kelembapan (65.12%) dan temperatur (29.97°C) yang relatif tinggi. Curah hujan sekitar 67.88 mm menjadikannya cocok untuk daerah dengan iklim tropis.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/blackgram.jpeg"
+    },
+    "lentil": {
+      "description": "Kacang lentil membutuhkan kandungan nitrogen (N) yang seimbang dan kelembapan yang moderat. Tumbuh baik pada tanah dengan pH yang relatif netral (6.93) dan temperatur sekitar 24.51°C. Curah hujan yang cukup tinggi sekitar 45.68 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/lentil.jpeg"
+    },
+    "pomegranate": {
+      "description": "Buah delima memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tumbuh baik pada tanah dengan pH sedikit asam (6.43) dan temperatur sekitar 21.84°C. Curah hujan sekitar 107.53 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/Pomegranate.jpg"
+    },
+    "banana": {
+      "description": "Pisang membutuhkan kandungan tinggi nitrogen (N) dan memerlukan kelembapan yang cukup tinggi (80.36%). Cocok untuk tanah dengan pH sedikit lebih rendah (5.98) dan tumbuh baik pada temperatur sekitar 27.38°C. Curah hujan sekitar 104.63 mm membuat pisang cocok untuk daerah dengan musim hujan yang cukup panjang.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/banana.jpg"
+    },
+    "mango": {
+      "description": "Mangga memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tumbuh baik pada kelembapan yang sedang (50.16%) dan temperatur sekitar 31.21°C. Curah hujan sekitar 94.70 mm menjadikannya cocok untuk daerah dengan iklim tropis.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/mango.jpg"
+    },
+    "grapes": {
+      "description": "Anggur membutuhkan kandungan nitrogen (N) dan fosfor (P) yang tinggi, serta kelembapan yang cukup (81.88%). Tumbuh baik pada tanah dengan pH sedikit asam (6.03) dan temperatur sekitar 23.85°C. Curah hujan sekitar 69.61 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/grapes.jpg"
+    },
+    "watermelon": {
+      "description": "Watermelon atau semangka adalah jenis buah melon yang memiliki kulit tebal berwarna hijau gelap dan daging buah yang berwarna merah atau merah muda. Tanaman ini membutuhkan kandungan nitrogen (N) dan fosfor (P) yang tinggi, tumbuh baik pada tanah dengan pH sedikit asam (6.50), kelembapan yang sedang (85.16%), dan temperatur sekitar 25.59°C. Curah hujan yang diperlukan sekitar 50.79 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil. Watermelon memiliki kandungan air tinggi, memberikan rasa manis dan kesegaran yang khas.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/watermelon.jpg"
+    },
+    "muskmelon": {
+      "description": "Muskmelon, atau yang sering dikenal sebagai cantaloupe, adalah jenis buah melon yang memiliki kulit berlekuk dan berwarna oranye. Tanaman ini membutuhkan kandungan nitrogen (N) dan fosfor (P) yang seimbang, tumbuh baik pada tanah dengan pH sedikit asam (6.36), kelembapan yang moderat (6.36%), dan temperatur sekitar 28.66°C. Curah hujan yang diperlukan sekitar 24.69 mm menjadikannya cocok untuk daerah dengan iklim tropis. Muskmelon menghasilkan buah yang berdaging jingga dengan aroma khas yang segar dan manis.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/Muskmelon.jpg"
+    },
+    "apple": {
+      "description": "Apel merupakan tanaman yang memerlukan kandungan tinggi unsur hara fosfor (P) dan kalium (K). Tanaman ini tumbuh optimal pada pH tanah yang sedikit bersifat asam (5.93) dan membutuhkan kelembapan tinggi (92.33%). Temperatur optimal untuk pertumbuhan apel adalah sekitar 22.63°C, dan curah hujan sekitar 112.65 mm. Oleh karena itu, apel sangat cocok untuk daerah dengan iklim sejuk dan musim hujan yang cukup panjang.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/apple.jpeg"
+    },
+    "orange": {
+      "description": "Jeruk memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tumbuh baik pada kelembapan yang sedang (92.17%) dan temperatur sekitar 22.77°C. Curah hujan sekitar 110.47 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/orange.jpg"
+    },
+    "papaya": {
+      "description": "Pepaya memerlukan kandungan nitrogen (N) dan fosfor (P) yang seimbang. Tumbuh baik pada kelembapan yang sedang (92.40%) dan temperatur sekitar 33.72°C. Curah hujan sekitar 142.63 mm menjadikannya cocok untuk daerah dengan iklim tropis.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/papaya.jpeg"
+    },
+    "coconut": {
+      "description": "Kelapa memerlukan kelembapan tinggi (94.84%) dan tumbuh baik pada tanah dengan pH sedikit asam (5.98). Kandungan unsur hara tanah (NPK) tidak terlalu tinggi. Cocok untuk daerah tropis dengan temperatur sekitar 27.41°C dan curah hujan sekitar 175.69 mm.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/coconut.jpeg"
+    },
+    "cotton": {
+      "description": "Kapas membutuhkan kandungan nitrogen (N) dan fosfor (P) yang tinggi, serta kelembapan yang cukup (79.84%). Tumbuh baik pada tanah dengan pH sedikit asam (6.91) dan temperatur sekitar 23.99°C. Curah hujan sekitar 80.40 mm menjadikannya cocok untuk daerah dengan iklim musim hujan yang stabil.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/cotton.jpg"
+    },
+    "jute": {
+      "description": "Jute membutuhkan kandungan nitrogen (N) dan fosfor (P) yang tinggi, serta kelembapan yang cukup (79.64%). Tumbuh baik pada tanah dengan pH sedikit asam (6.73) dan temperatur sekitar 24.96°C. Curah hujan sekitar 174.79 mm menjadikannya cocok untuk daerah dengan iklim tropis.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/jute.jpg"
+    },
+    "coffee": {
+      "description": "Kopi memerlukan kandungan nitrogen (N) dan fosfor (P) yang tinggi, serta kelembapan yang cukup (58.87%). Tumbuh baik pada tanah dengan pH sedikit asam (6.79) dan temperatur sekitar 25.54°C. Curah hujan sekitar 158.07 mm menjadikannya cocok untuk daerah dengan iklim tropis.",
+      "imageURL": "https://storage.googleapis.com/imagecropoptima/coffe.jpg"
+    }
+  },
+  "rainfall": {
+    "1": 195,
+    "2": 185,
+    "3": 175,
+    "4": 160,
+    "5": 145,
+    "6": 130,
+    "7": 115,
+    "8": 120,
+    "9": 135,
+    "10": 150,
+    "11": 165,
+    "12": 180
+  }
+}
