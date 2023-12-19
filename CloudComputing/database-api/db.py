@@ -29,11 +29,7 @@ def get_history(email):
     with conn.cursor() as cursor:
         cursor.execute("SELECT * FROM histories where email = %s;", (email,))
         history = cursor.fetchall()
-        if history:
-            got_history = jsonify(history)
-        else:
-            got_history = "Prediction not found"
-        return got_history
+        return jsonify({"error": "false", "histories": history})
 
 
 def input_history(result, email):

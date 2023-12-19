@@ -30,7 +30,7 @@ def predict():
     )
 
     if "error" in email:
-        return jsonify({"error message": email["error"]["message"]})
+        return jsonify({"error": "true", "message": email["error"]["message"]})
     else:
         model_payload = json.dumps(
             {
@@ -46,7 +46,7 @@ def predict():
         model_url = "https://crop.mautau.tk/predict"
         result = requests.post(model_url, headers=model_header, data=model_payload)
         input_history(result, email["users"][0]["email"])
-        return jsonify(result.json())
+        return jsonify({"error": "false", "message": result.json()})
 
 
 @app.route("/history", methods=["POST"])
@@ -55,11 +55,11 @@ def history():
     verification_header = {"Content-Type": "application/x-www-form-urlencoded"}
     email = json.loads(
         requests.post(
-            verification_url, headers=verification_header, data={"idToken=": idToken}
+            verification_url, headers=verification_header, data={"idToken": idToken}
         ).text
     )
     if "error" in email:
-        return jsonify({"error message": email["error"]["message"]})
+        return jsonify({"error": "true", "message": email["error"]["message"]})
     else:
         return get_history(email["users"][0]["email"])
 
