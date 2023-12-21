@@ -13,7 +13,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/panduwjaya/CropOptima-Fullteam/total)![Contributors](https://img.shields.io/github/contributors/panduwjaya/CropOptima-Fullteam?color=dark-green) ![Issues](https://img.shields.io/github/issues/panduwjaya/CropOptima-Fullteam) ![License](https://img.shields.io/github/license/panduwjaya/CropOptima-Fullteam) 
+![Downloads](https://img.shields.io/github/downloads/panduwjaya/CropOptima-Fullteam/total)![Contributors](https://img.shields.io/github/contributors/panduwjaya/CropOptima-Fullteam?color=dark-green) ![Issues](https://img.shields.io/github/issues/panduwjaya/CropOptima-Fullteam) ![License](https://img.shields.io/github/license/panduwjaya/CropOptima-Fullteam)
 
 ## Table Of Contents
 
@@ -40,15 +40,15 @@ Machine Learning Model via API which created by our personil too.
 
 ## Authors
 
-|            Nama            | Bangkit-ID  |       Path       |
-|:--------------------------:|:-----------:|:----------------:|
-|      Odista Dwi Putra      | M226BSY1570 | Machine Learning |
-| Prayogo Makarya Alexandria | M001BSY0200 | Machine Learning |
-|      Devano Danendra       | M226BSY0749 | Machine Learning |
-|  Alvin Reihansyah Makarim  | C248BSY3644 | Cloud Computing  |
-|        Muhkito Afif        | C248BSY3747 | Cloud Computing  |
-|        Pandu Wijaya        | A248BSY1976 |     Android      |
-|  Muammar Mufid Darmindra   | A548BKY4474 |     Android      |
+|            Nama            | Bangkit-ID  |        Path        |
+|:--------------------------:|:-----------:|:------------------:|
+|      Odista Dwi Putra      | M226BSY1570 |  Machine Learning  |
+| Prayogo Makarya Alexandria | M001BSY0200 |  Machine Learning  |
+|      Devano Danendra       | M226BSY0749 |  Machine Learning  |
+|  Alvin Reihansyah Makarim  | C248BSY3644 |  Cloud Computing   |
+|        Muhkito Afif        | C248BSY3747 |  Cloud Computing   |
+|        Pandu Wijaya        | A248BSY1976 | Mobile Development |
+|  Muammar Mufid Darmindra   | A548BKY4474 | Mobile Development |
 
 ## Getting Started
 
@@ -60,10 +60,11 @@ To get a local copy up and running follow these simple example steps.
 <details>
 <summary> Library and Framework </summary>
 
-* [Tensorflow](https://www.tensorflow.org/) : 
+* [Tensorflow](https://www.tensorflow.org/) :
 * [Numpy](https://numpy.org/)
 * [Keras](https://keras.io/)
 * [Jupyter Notebook](https://jupyter.org/)
+
 </details>
 
 <details>
@@ -73,9 +74,11 @@ To get a local copy up and running follow these simple example steps.
 2. Open file `/MachineLearning/File Py/Capstone_Project_Bangkit.ipynb` in your Jupyter Notebook
 3. Build and run the `.ipynb` file
 4. Use the generated model to predict with required data
+
 </details>
 
 ### Cloud Computing
+
 <details>
 <summary> Library and Platform </summary>
 
@@ -84,6 +87,7 @@ To get a local copy up and running follow these simple example steps.
 * [Cloudrun](https://cloud.google.com/run)
 * [Flask](https://flask.palletsprojects.com/)
 * [Python >= 3.8](https://www.python.org/)
+
 </details>
 
 <details>
@@ -93,26 +97,35 @@ To get a local copy up and running follow these simple example steps.
 2. Open directory `/CloudComputing`
 3. If you want use database to saving your history go to `/database-api` otherwise `/model-api`
 4. Don't forget include the Machine Learning Model
-3. Open your terminal and install all dependencies with 
+3. Open your terminal and install all dependencies with
+
 ```sh
 pip install -r requirements.txt
 ```
+
 4. Run API
+
 ```sh
 python3 main.py
 ```
-5.  Access API at `http://localhost:5000`
+
+5. Access API at `http://localhost:5000`
+
 </details>
 
 ### Mobile Development
+
 <details>
 <summary> Library and Platform </summary>
 
-* [Material 3](https://m3.material.io/) : Used as User Interface library that can help you make your design look more beautiful
-* [Retrofit](https://square.github.io/retrofit/) : Retrofit is a library that can help application to make API call and handling API
-* [Glide](https://github.com/bumptech/glide) : This library is useful for showing images from URL to ImageView 
+* [Material 3](https://m3.material.io/) : Used as User Interface library that can help you make your design look more
+  beautiful
+* [Retrofit](https://square.github.io/retrofit/) : Retrofit is a library that can help application to make API call and
+  handling API
+* [Glide](https://github.com/bumptech/glide) : This library is useful for showing images from URL to ImageView
 * [Firebase](https://github.com/bumptech/glide) : Firebase is one of most popular library to handling Authorization
 * [Android Studio](https://developer.android.com/studio)
+
 </details>
 <details>
 <summary>  How to run </summary> 
