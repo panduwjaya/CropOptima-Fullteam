@@ -63,10 +63,6 @@ To get a local copy up and running follow these simple example steps.
 * [Tensorflow](https://www.tensorflow.org/) : 
 * [Numpy](https://numpy.org/)
 * [Keras](https://keras.io/)
-</details>
-<details>
-<summary> Prerequisites </summary> 
-
 * [Jupyter Notebook](https://jupyter.org/)
 </details>
 
@@ -75,21 +71,18 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone [this](https://github.com/panduwjaya/CropOptima-Fullteam.git) repository and open the folder
 2. Open file `/MachineLearning/File Py/Capstone_Project_Bangkit.ipynb` in your Jupyter Notebook
-3. Build and run your Notebook
+3. Build and run the `.ipynb` file
 4. Use the generated model to predict with required data
 </details>
 
 ### Cloud Computing
 <details>
 <summary> Library and Platform </summary>
+
 * [Express Js](https://expressjs.com/)
 * [Docker](https://docker.com/)
 * [Cloudrun](https://cloud.google.com/run)
-</details>
-
-<details>
-<summary> Prerequisites </summary> 
-
+* [Flask](https://flask.palletsprojects.com/)
 * [Python >= 3.8](https://www.python.org/)
 </details>
 
@@ -119,10 +112,6 @@ python3 main.py
 * [Retrofit](https://square.github.io/retrofit/) : Retrofit is a library that can help application to make API call and handling API
 * [Glide](https://github.com/bumptech/glide) : This library is useful for showing images from URL to ImageView 
 * [Firebase](https://github.com/bumptech/glide) : Firebase is one of most popular library to handling Authorization
-</details>
-<details>
-<summary> Prerequisites </summary> 
-
 * [Android Studio](https://developer.android.com/studio)
 </details>
 <details>
@@ -133,12 +122,14 @@ python3 main.py
 3. Build and run your application
 
 </details>
-
-
-
-
-
-
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
+<br>
+</br>
 ##############EXAMPLE
 
 ### Prerequisites
