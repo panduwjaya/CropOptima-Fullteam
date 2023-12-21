@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/panduwjaya/CropOptima-Fullteam/">
-    <img src="https://raw.githubusercontent.com/panduwjaya/CropOptima-Fullteam/master/logo-transparent.png" alt="Logo" width="80" height="80">
+    <img src="logo-transparent.png" alt="Logo">
   </a>
 
   <h3 align="center">Crop Optima</h3>
@@ -58,12 +58,25 @@ To get a local copy up and running follow these simple example steps.
 ### Machine Learning
 
 <details>
-<summary> Library Used </summary>
+<summary> Library and Framework </summary>
 
 * [Tensorflow](https://www.tensorflow.org/) : 
 * [Numpy](https://numpy.org/)
 * [Keras](https://keras.io/)
+</details>
+<details>
+<summary> Prerequisites </summary> 
 
+* [Jupyter Notebook](https://jupyter.org/)
+</details>
+
+<details>
+<summary>  How to run </summary> 
+
+1. Clone [this](https://github.com/panduwjaya/CropOptima-Fullteam.git) repository and open the folder
+2. Open file `/MachineLearning/File Py/Capstone_Project_Bangkit.ipynb` in your Jupyter Notebook
+3. Build and run your Notebook
+4. Use the generated model to predict with required data
 </details>
 
 ### Cloud Computing
@@ -72,6 +85,30 @@ To get a local copy up and running follow these simple example steps.
 * [Express Js](https://expressjs.com/)
 * [Docker](https://docker.com/)
 * [Cloudrun](https://cloud.google.com/run)
+</details>
+
+<details>
+<summary> Prerequisites </summary> 
+
+* [Python >= 3.8](https://www.python.org/)
+</details>
+
+<details>
+<summary>  How to run </summary> 
+
+1. Clone [this](https://github.com/panduwjaya/CropOptima-Fullteam.git) repository and open the folder
+2. Open directory `/CloudComputing`
+3. If you want use database to saving your history go to `/database-api` otherwise `/model-api`
+4. Don't forget include the Machine Learning Model
+3. Open your terminal and install all dependencies with 
+```sh
+pip install -r requirements.txt
+```
+4. Run API
+```sh
+python3 main.py
+```
+5.  Access API at `http://localhost:5000`
 </details>
 
 ### Mobile Development
