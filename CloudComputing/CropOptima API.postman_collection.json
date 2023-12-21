@@ -1,0 +1,118 @@
+{
+  "info": {
+    "_postman_id": "5b477d7a-b1ef-47d8-ad71-3c99284b20e7",
+    "name": "CropOptima API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+    "_exporter_id": "19523654"
+  },
+  "item": [
+    {
+      "name": "Predict",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "idToken",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjAzMmNjMWNiMjg5ZGQ0NjI2YTQzNWQ3Mjk4OWFlNDMyMTJkZWZlNzgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY3JvcG9wdGltYSIsImF1ZCI6ImNyb3BvcHRpbWEiLCJhdXRoX3RpbWUiOjE3MDMxMzg0NTQsInVzZXJfaWQiOiJrdzJIaGdSYmdnZVVrbHFzUE9MbnY4YkRTZWgxIiwic3ViIjoia3cySGhnUmJnZ2VVa2xxc1BPTG52OGJEU2VoMSIsImlhdCI6MTcwMzEzODQ1NCwiZXhwIjoxNzAzMTQyMDU0LCJlbWFpbCI6ImFsdmlucmVpaGFuc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYWx2aW5yZWloYW5zQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.w5da_Ejv8y_FW5Xsap-7mC6QmZgl9qrgKnc3O-ICsirCEm6RN2XZHKXpL4d4eLKbvdbt-aAJT_qrCFqoXPTzyMQSH1J1xexsdUO9mtGUcHeu6U_Cq4Xl8maA-ubSynonFM14fRPzPie8DNpHcqXl20_G2HLcPlcuB4LwIcizoPTyeXhlkmeqIn9giE0zR3vCIVlopjEMPPZGtyiy5q28TB9dwRmhDtBukakiJ2kabM22i3YTmkUlPnuZkZfJgdwQ4_7g0rsNLg4J57ceN0oB1oNcZ-OyeXIfZd9R75CC8xJ46FDZH_JNuvNMnXFR7uRSa5lE70h-R6kKfRZLPJnCmA",
+              "type": "text"
+            },
+            {
+              "key": "n",
+              "value": "110",
+              "type": "text"
+            },
+            {
+              "key": "p",
+              "value": "134",
+              "type": "text"
+            },
+            {
+              "key": "k",
+              "value": "199.89",
+              "type": "text"
+            },
+            {
+              "key": "ph",
+              "value": "5.929663",
+              "type": "text"
+            },
+            {
+              "key": "lat",
+              "value": "0.5489221",
+              "type": "text"
+            },
+            {
+              "key": "lon",
+              "value": "123.0400206",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "https://cropoptima.uc.r.appspot.com/predict"
+      },
+      "response": []
+    },
+    {
+      "name": "History",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "idToken",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjAzMmNjMWNiMjg5ZGQ0NjI2YTQzNWQ3Mjk4OWFlNDMyMTJkZWZlNzgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vY3JvcG9wdGltYSIsImF1ZCI6ImNyb3BvcHRpbWEiLCJhdXRoX3RpbWUiOjE3MDMxMzg0NTQsInVzZXJfaWQiOiJrdzJIaGdSYmdnZVVrbHFzUE9MbnY4YkRTZWgxIiwic3ViIjoia3cySGhnUmJnZ2VVa2xxc1BPTG52OGJEU2VoMSIsImlhdCI6MTcwMzEzODQ1NCwiZXhwIjoxNzAzMTQyMDU0LCJlbWFpbCI6ImFsdmlucmVpaGFuc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6ZmFsc2UsImZpcmViYXNlIjp7ImlkZW50aXRpZXMiOnsiZW1haWwiOlsiYWx2aW5yZWloYW5zQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.w5da_Ejv8y_FW5Xsap-7mC6QmZgl9qrgKnc3O-ICsirCEm6RN2XZHKXpL4d4eLKbvdbt-aAJT_qrCFqoXPTzyMQSH1J1xexsdUO9mtGUcHeu6U_Cq4Xl8maA-ubSynonFM14fRPzPie8DNpHcqXl20_G2HLcPlcuB4LwIcizoPTyeXhlkmeqIn9giE0zR3vCIVlopjEMPPZGtyiy5q28TB9dwRmhDtBukakiJ2kabM22i3YTmkUlPnuZkZfJgdwQ4_7g0rsNLg4J57ceN0oB1oNcZ-OyeXIfZd9R75CC8xJ46FDZH_JNuvNMnXFR7uRSa5lE70h-R6kKfRZLPJnCmA",
+              "type": "text"
+            }
+          ]
+        },
+        "url": "https://cropoptima.uc.r.appspot.com/history"
+      },
+      "response": []
+    },
+    {
+      "name": "Generate idToken",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "email",
+              "value": "alvinreihans@gmail.com",
+              "type": "text"
+            },
+            {
+              "key": "password",
+              "value": "alvinreihans@gmail.com",
+              "type": "text"
+            },
+            {
+              "key": "returnSecureToken",
+              "value": "true",
+              "type": "text"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyDNWTMdf4RoFlXr6tuTRUlBJ7hex2Y02Nk",
+          "protocol": "https",
+          "host": ["identitytoolkit", "googleapis", "com"],
+          "path": ["v1", "accounts:signInWithPassword"],
+          "query": [
+            {
+              "key": "key",
+              "value": "AIzaSyDNWTMdf4RoFlXr6tuTRUlBJ7hex2Y02Nk"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
