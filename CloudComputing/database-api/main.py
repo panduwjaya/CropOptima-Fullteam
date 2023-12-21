@@ -11,7 +11,9 @@ verification_url = "https://identitytoolkit.googleapis.com/v1/accounts:lookup?ke
 
 @app.route("/predict", methods=["POST"])
 def predict():
-    data = request.get_json()
+    if request.headers["Content-Type"] != "application/x-www-form-urlencoded":
+        return jsonify({"error": "Invalid Content-Type"}), 400
+    data = request.form
     idToken = data.get("idToken")
     N = float(data.get("n"))
     P = float(data.get("p"))
@@ -51,7 +53,9 @@ def predict():
 
 @app.route("/history", methods=["POST"])
 def history():
-    idToken = str(request.get_json().get("idToken"))
+    if request.headers["Content-Type"] != "application/x-www-form-urlencoded":
+        return jsonify({"error": "Invalid Content-Type"}), 400
+    idToken = str(request.form.get("idToken"))
     verification_header = {"Content-Type": "application/x-www-form-urlencoded"}
     email = json.loads(
         requests.post(
