@@ -1,0 +1,7 @@
+runtime: python37
+
+env_variables:
+  CLOUD_SQL_USERNAME: crop-optima-api
+  CLOUD_SQL_PASSWORD: sukses123
+  CLOUD_SQL_DATABASE_NAME: crop_optima_db
+  CLOUD_SQL_CONNECTION_NAME: cropoptima:asia-southeast2:crop-optima-db
