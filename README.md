@@ -71,7 +71,7 @@ To get a local copy up and running follow these simple example steps.
 <summary>  How to run </summary> 
 
 1. Clone [this](https://github.com/panduwjaya/CropOptima-Fullteam.git) repository and open the folder
-2. Open file `/MachineLearning/File Py/Capstone_Project_Bangkit.ipynb` in your Jupyter Notebook
+2. Open file `/MachineLearning/File Py/Capstone_Project_Bangkit.ipynb` in your Jupyter Notebook or Google Collab
 3. Build and run the `.ipynb` file
 4. Use the generated model to predict with required data
 
