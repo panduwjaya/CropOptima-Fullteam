@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
-  <a href="https://github.com/panduwjaya/CropOptima-Fullteam/blob/master/logo-transparent.png?raw=true">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/panduwjaya/CropOptima-Fullteam/">
+    <img src="https://raw.githubusercontent.com/panduwjaya/CropOptima-Fullteam/master/logo-transparent.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Crop Optima</h3>
