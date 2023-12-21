@@ -13,7 +13,10 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/ShaanCoding/ReadME-Generator/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/ReadME-Generator?color=dark-green) ![Issues](https://img.shields.io/github/issues/ShaanCoding/ReadME-Generator) ![License](https://img.shields.io/github/license/ShaanCoding/ReadME-Generator)
+![Downloads](https://img.shields.io/github/downloads/panduwjaya/CropOptima-Fullteam/total)
+![Contributors](https://img.shields.io/github/contributors/panduwjaya/CropOptima-Fullteam?color=dark-green)\
+![Issues](https://img.shields.io/github/issues/panduwjaya/CropOptima-Fullteam)
+![License](https://img.shields.io/github/license/panduwjaya/CropOptima-Fullteam)
 
 ## Table Of Contents
 
