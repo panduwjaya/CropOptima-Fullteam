@@ -79,14 +79,21 @@ To get a local copy up and running follow these simple example steps.
 
 ### Cloud Computing
 
+
 <details>
 <summary> Library and Platform </summary>
 
+<p align="center">
+  <img src="CloudDiagram.png" alt="Cloud architecture">
+</p>
+
 * [Express Js](https://expressjs.com/)
 * [Docker](https://docker.com/)
-* [Cloudrun](https://cloud.google.com/run)
+* [App Engine](https://www.python.org/)
+* [Cloud SQL](https://cloud.google.com/sql/mysql?hl=en)
 * [Flask](https://flask.palletsprojects.com/)
 * [Python >= 3.8](https://www.python.org/)
+
 
 </details>
 
@@ -95,9 +102,9 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone [this](https://github.com/panduwjaya/CropOptima-Fullteam.git) repository and open the folder
 2. Open directory `/CloudComputing`
-3. If you want use database to saving your history go to `/database-api` otherwise `/model-api`
-4. Don't forget include the Machine Learning Model
-3. Open your terminal and install all dependencies with
+3. If you want to connect your application to a database, please deploy `/database-api` to Google App Engine.
+4. If you want to use a Machine Learning model as an API, please run `/model-api` locally or deploy it to a virtual machine. Don't forget include the Machine Learning Model if you using model-api
+5. Open your terminal and install all dependencies with
 
 ```sh
 pip install -r requirements.txt
@@ -110,6 +117,9 @@ python3 main.py
 ```
 
 5. Access API at `http://localhost:5000`
+
+Notes:
+`/database-api` doesn't work on localhost and need to be deployed to app engine. also need an working MySQL databases to work.
 
 </details>
 
