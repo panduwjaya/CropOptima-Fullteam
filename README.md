@@ -29,12 +29,12 @@
 
 ## 📑 About The Project
 
-![Screen Shot](images/screenshot.png)
+![Screen Shot](MobileDevelopment/ReadmeImg/md2.png)
 
-We make a mobile application that can give plant sugestion based on your location na dyour enviroment situation, such as
-Nitrogen, Fosfor, an Kalium. With that data we send it to out Machine Learning model and the model will give us the
+We make a mobile application that can give plant suggestion based on your location and your environment situation, such as
+Nitrogen, Phosphor, and Kalium. With that data we send it to out Machine Learning model and the model will give us the
 suggestion plant as result. The model itself created by using dataset. Our mobile application do communication with the
-Machine Learning Model via API which created by our personil too.
+Machine Learning Model via API which created by our member too.
 
 ## 👨‍💻 Authors
 
@@ -129,7 +129,11 @@ Notes:
 </details>
 
 ### Mobile Development 📱
+<details open>
+<summary>Screenshot </summary>
+
 ![md](MobileDevelopment/ReadmeImg/md1.png)
+</details>
 
 <details open>
 <summary> Library and Platform </summary>
